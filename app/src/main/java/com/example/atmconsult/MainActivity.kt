@@ -19,5 +19,17 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this,DetalheEmpresa::class.java)
             startActivity(intent)
         }
+
+        button_servicos.setOnClickListener {
+            val intent = Intent(this,DetalheServicos::class.java)
+            startActivity(intent)
+        }
+
+        button_contato.setOnClickListener {
+            val intent = Intent(this,DetalheContato::class.java)
+            startActivity(intent)
+        }
+
+
     }
 }

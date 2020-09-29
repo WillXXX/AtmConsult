@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DetalheEmpresa"></activity>
+        <activity android:name=".DetalheContato"></activity>
+        <activity android:name=".DetalheServicos" />
+        <activity android:name=".DetalheEmpresa" />
         <activity android:name=".DetalheClienteActivity" />
         <activity
             android:name=".MainActivity"
